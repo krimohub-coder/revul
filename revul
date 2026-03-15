@@ -863,7 +863,7 @@ task.spawn(function() task.wait(1) ResetToWork() end)
 initializeScanner()
 
 if game.Players.LocalPlayer.Name == "MOMO96330" then
-print("whitelisted")-- change the print to ur code
+revul("whitelisted")
 else
 game.Players.LocalPlayer:Kick("your not whitelisted")
 end
